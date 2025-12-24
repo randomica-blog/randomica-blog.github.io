@@ -1,40 +1,58 @@
 <html lang="en">
 
-        <head>
-                <title>~Randomica Blog</title>
-                <meta name="viewport" content="width=device-width, initial-scale=1">
-                
-                <style>
-                        body{
-                        background: #202020;
-                        color: #e3e0ab;
-                        font-family: "Monaco", sans-serif;
-                        font-size: 21px;
-                        line-height: 1.5;
-                        max-width: 900px;
-                        margin: auto;
-                        padding: 12px;
-                        }
+	<head>
+		<title>~Randomica Blog</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<style>
+			body{
+			background: #202020;
+			color: #e3e0ab;
+			font-family: "Monaco", sans-serif;
+			font-size: 21px;
+			line-height: 1.5;
+			max-width: 900px;
+			margin: auto;
+			padding: 12px;
+			}
 
-                        h1,h2,h3,h4{
-                        color: white;
-                        }
+			h1,h2,h3,h4{
+			color: white;
+			}
+			
+			h1::before,h2::before,h3:before{
+			content:"~"}	
+		</style>
+	</head>
 
-                        h1::before,h2::before,h3:before{
-                        content:"~"}
-                </style>
-        </head>
-
-        <body>
-        <h1>Randomica</h1>
-        <p>Hello, world! This is the first (not actually, but ok) page of <em>~Randomica</em> blog!</p><br>
-        <p>I want to write the code of this website, but also the articles' text only with the vim text editor.<br>If you don't know it; <em>vim</em> is a command line text editor. It's a minimal program accessible only via the Terminal app. I want to play with this minimal environment for two main reasons: [1] this minimal environment seems to be very stimulating; [2] a text editor without color syntax and suggestions forces you to really think about the code you are writing.</p><br>
-        <h3>What if this was a single, infinite HTML page?</h3>
-        <h4><time datetime="2025-12-19">2025-12-19</time></h4>
-        <p>What if this blog was a unique HTML page, where every &lt;p&gt; tag was an article? It's a bullshit, for sure.<br>
-        It's a standard for several blogs to have an infinite home page with all the articles. But they are divided in pages and you can open a single one, you have a link for them to share etc.<br>
-        Writing in vim is so fun. I still struggle with some commands but this is the best way to learn and "install" things on your muscle memory. I don't know if writing directly inside the HTML page is the best choice. I feel that there is something wrong because it's a huge and complex page; you take the risk of doing something that entirely breaks the page without knowing it (this is another reason for dividing this blog in several pages). But we'll see. In this way I feel to have the full control on the webpage. I can directly change the structure (even if it's so simple), the impagination, aesthetics, and so on. But I have to decide which way is the best. Maybe writing in a plain txt file and implement the text later. Now, I can type :w and check on my browser how this page looks. I should check how it looks like on Lynx browser.<br>
-        Update on Lynx: the overall content is perfect, but I lose all the CSS content like colors and the <strong>tilde</strong> that is automatically added to headers. However, I think this is exactly what pepole want to see when navigating the web on a text based browser like Lynx.</p><br>
-</p><br>
-        </body>
+	<body>
+	<h1>Randomica</h1>
+	<p>Hello, world! This is the first (not actually, but ok) page of <em>~Randomica</em> blog!</p><br>
+	<p>I want to write the code of this website, but also the articles' text only with the vim text editor.<br>If you don't know it; <em>vim</em> is a command line text editor. It's a minimal program accessible only via the Terminal app. I want to play with this minimal environment for two main reasons: [1] this minimal environment seems to be very stimulating; [2] a text editor without color syntax and suggestions forces you to really think about the code you are writing.</p><br>
+	
+	<h3>On writing and ambitions.</h3>
+	<h4><time datetime="2025-12-23">2025-12-23</time></h4>
+	<p>
+		Ok. I turn off the lights. Everyone is sleeping. An almost black screen with a column of purple tildes and the only two lines of white text that I just wrote.
+		This is the basic screen of Vim when you open a new file to start typing. There's only one other element on the screen. On the last line, bottom-left portion of this digital, mutating space that is my display. There's something that reads as a mix between an invite and an imperative command:
+		<br>
+		<strong>-- INSERT --</strong>
+		<br>
+		There is something magical in this meditative action that is writing during the night, alone. Either if it is directly writing with pen and paper or if it is typing on the keyboard looking at the display. I love the fact that you are almost isolated. Without other external input. Without other people asking you what you are doing, why you are doing it.
+		Maybe it's a personal problem, but I always felt something like shame when I start something personal like this blog.It is probably caused by the cultural environment that is typical in the city where I passed my youth. There is this tendency to discourage the ambition of new initiatives. It's something hard to explain. If I have to use an example, I would say that the people always find pointless to start a musical project, until it already became "famous" and successful.
+		So I feel like this and I don't like to make this stuff in public. But I still love typing mmy toughts and putting the in order in my mind. It's hard to write well and properly, creating a path of ideas and emotions that feels cohesive and makes sense. It requires practice and time. I'm writing this stuff more for me than for others, but I would love to produce some writings with the idea that they would be read by other people.
+		This would require a proper commitment: to put ideas in order, to organize an outline, to write down the first draft, to read the text again and again. To think about a person that reads the text for the first time without the background that you, the writer, have after all the work done.
+		It's a little bit late and in a minute I'll be disturbed :) End of the file
+		:wq<br>
+	</p>
+	
+	<h3>What if this was a single, infinite HTML page?</h3>
+	<h4><time datetime="2025-12-19">2025-12-19</time></h4>
+	<p>
+		What if this blog was a unique HTML page, where every &lt;p&gt; tag was an article? It's a bullshit, for sure.<br>
+		It's a standard for several blogs to have an infinite home page with all the articles. But they are divided in pages and you can open a single one, you have a link for them to share etc.<br>
+		Writing in vim is so fun. I still struggle with some commands but this is the best way to learn and "install" things on your muscle memory. I don't know if writing directly inside the HTML page is the best choice. I feel that there is something wrong because it's a huge and complex page; you take the risk of doing something that entirely breaks the page without knowing it (this is another reason for dividing this blog in several pages). But we'll see. In this way I feel to have the full control on the webpage. I can directly change the structure (even if it's so simple), the impagination, aesthetics, and so on. But I have to decide which way is the best. Maybe writing in a plain txt file and implement the text later. Now, I can type :w and check on my browser how this page looks. I should check how it looks like on Lynx browser.<br>
+		Update on Lynx: the overall content is perfect, but I lose all the CSS content like colors and the <strong>tilde</blod> that is automatically added to headers. However, I think this is exactly what pepole want to see when navigating the web on a text based browser like Lynx.<br>
+	</p>
+	</body>
 </html>
